@@ -177,10 +177,10 @@ sum(is.na(data_full$steps))
 
 ```{r}
 steps_full <- data_full %>%
-filter(!is.na(steps)) %>%
-group_by(date) %>%
-summarize(steps = sum(steps)) %>%
-
+  filter(!is.na(steps)) %>%
+  group_by(date) %>%
+  summarize(steps = sum(steps)) %>%
+  print
 ```
 
 ```{r}
