@@ -93,6 +93,7 @@ print
 ggplot(steps, aes(x = steps)) +
   geom_histogram(fill = "firebrick", binwidth = 1000) +
   labs(title = "Histogram of Steps per day", x = "Steps per day", y = "Frequency")
+  print
 ```
 
 
